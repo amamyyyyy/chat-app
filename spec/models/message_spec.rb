@@ -8,7 +8,7 @@ RSpec.describe Message, type: :model do
   describe 'メッセージ投稿' do
     context 'メッセージが投稿できる場合' do
       it 'contentとimageが存在していれば保存できる' do
-        expect(@message).to be_valid
+      expect(@message).to be_valid
       end
       it 'contentが空でも保存できる' do
         @message.content = ''
