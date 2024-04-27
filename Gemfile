@@ -74,7 +74,7 @@ group :test do
   gem "webdrivers"
 end
 
-gem 'device'
+
 gem 'devise'
 gem 'pry-rails'
 gem 'mini_magick'
